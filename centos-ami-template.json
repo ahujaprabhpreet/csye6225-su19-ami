@@ -59,11 +59,9 @@
                 "wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install",
                 "chmod +x ./install",
                 "sudo ./install auto",
-                "cd ~ && touch csye6225.log",
-                "sudo chgrp -R tomcat csye6225.log",
-                "sudo chmod -R g+r csye6225.log",
-                "sudo chmod g+x csye6225.log",
-                "sudo mv csye6225.log /opt/tomcat/logs/csye6225.log"
+                "cd /opt/tomcat/logs",
+                "touch csye6225.log",
+                "chmod 777 csye6225.log"
             ]
         }
     ]
