@@ -59,7 +59,7 @@
                 "wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install",
                 "chmod +x ./install",
                 "sudo ./install auto",
-                "cd /opt/tomcat/logs",
+                "cd ~/tomcat/logs",
                 "touch csye6225.log",
                 "chmod 777 csye6225.log"
             ]
